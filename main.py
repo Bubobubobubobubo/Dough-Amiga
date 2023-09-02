@@ -16,7 +16,7 @@ def generate_json():
             if file_name.lower().endswith('.wav'):
                 data[dir_name].append(f"{dir_name}/{file_name}")
     with open('strudel.json', 'w') as json_file:
-        # Minifiy if possible
+        # Minify if possible
         json.dump(data, json_file, separators=(',', ':'))
 
 if __name__ == "__main__":
