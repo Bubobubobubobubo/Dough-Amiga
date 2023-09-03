@@ -3,7 +3,7 @@ import json
 
 def generate_json():
     data = {
-        "_base": "https://raw.githubusercontent.com/Bubobubobubobubo/Topos-Samples/main/"
+        "_base": "https://raw.githubusercontent.com/Bubobubobubobubo/Dough-Amiga/main/"
     }
     
     # Iterate through each directory in the current folder
